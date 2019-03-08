@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
+#define PI 3.141592653
 
 int main(int argc, char const *argv[])
 {
-    printf("Hello world*************\n");
-    int i, j;
-    for (i = 0; i < 100; i++)
-    {
-        printf("i=%d\n", i);
-        j = i + 8;
-    }
+     printf("Hello world*************\n");
+     printf("%f\n", cos(90 / 180 * PI));
+     printf("%f", acos(0));
+     int a = printf("input is too long");
+     printf("\n%d", a);
 
-    return 0;
+     return 0;
 }
