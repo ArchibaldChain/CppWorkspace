@@ -10,6 +10,6 @@ int main(int argc, char const *argv[])
      printf("%f", acos(0));
      int a = printf("input is too long");
      printf("\n%d", a);
-
+     char a[4] = {1, 3, 4};
      return 0;
 }

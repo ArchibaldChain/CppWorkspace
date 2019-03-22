@@ -24,6 +24,11 @@ void input_num(double *input)
 
 void input_str(char *input)
 {
+     do
+     {
+          fgets(input, INPUT_LEN, stdin);
+          setbuf(stdin, NULL);
+     } while (sizeof(input) > 20 && printf("Input is too long"));
 }
 
 int main(int argc, char const *argv[])
