@@ -1,0 +1,6 @@
+C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/newPorject.dir
+C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/Lab2Ex3.dir
+C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/Lab.dir
+C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/Lab2Ex2.dir
+C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
