@@ -78,7 +78,7 @@ int main(int argc, char const *argv[])
     double c = 0, phi1 = 0, phi2 = 0;
     //Input the first city
     printf("The First city:");
-    getline(cin, fir_city);
+    fir_city = input_str();
 
     printf("Input the latitude:");
     fir_lati = input_lati();
@@ -88,7 +88,7 @@ int main(int argc, char const *argv[])
     //Input the Second city
     printf("The Second city:");
     cin.get(); // omit the space;
-    getline(cin, sec_city);
+    sec_city = input_str();
 
     printf("Input the latitude:");
     sec_lati = input_lati();
