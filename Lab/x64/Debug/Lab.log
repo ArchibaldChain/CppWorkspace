@@ -1,4 +1,0 @@
-﻿  Lab2_1.cpp
-c:\programing\c programming\workspace cpp\lab\lab2_1.cpp(11): error C2131: 表达式的计算结果不是常数
-  c:\programing\c programming\workspace cpp\lab\lab2_1.cpp(11): note: 因读取超过生命周期的变量而失败
-  c:\programing\c programming\workspace cpp\lab\lab2_1.cpp(11): note: 请参见“n”的用法
