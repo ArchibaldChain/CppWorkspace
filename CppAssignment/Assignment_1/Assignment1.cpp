@@ -72,7 +72,7 @@ string input_str()
 
 int main(int argc, char const *argv[])
 {
-    string fir_city = "", sec_city = "";
+    string fir_city, sec_city;
     double fir_longti = 0, fir_lati = 0;
     double sec_longti = 0, sec_lati = 0;
     double c = 0, phi1 = 0, phi2 = 0;
