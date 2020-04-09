@@ -7,7 +7,7 @@ int main()
     p[0] = 1;
     p[1] = 2;
     p[3] = 3;
-    td::cout << p[0] << endl;
+    std::cout << p[0] << endl;
     std::cout << p << endl;
     cout << (int)p << endl;
     cout << (int *)p << endl;

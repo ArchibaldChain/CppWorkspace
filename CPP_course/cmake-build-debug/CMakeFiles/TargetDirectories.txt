@@ -1,6 +1,8 @@
-C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/newPorject.dir
-C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/Lab2Ex3.dir
-C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/Lab.dir
-C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/Lab2Ex2.dir
-C:/Users/Archibald Chain/CLionProjects/newPorject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab2Ex3.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab2Ex2.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Assignment2.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/test_csv.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab7ex2.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/edit_cache.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/rebuild_cache.dir

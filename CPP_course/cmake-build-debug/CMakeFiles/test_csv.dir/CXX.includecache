@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+I:/Programming/CppWorkspace/CPP_course/Assignment/test_csv.cpp
+iostream
+-
+fstream
+-
+string
+-
+cstring
+-
+vector
+-
+sstream
+-
+

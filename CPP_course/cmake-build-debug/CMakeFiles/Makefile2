@@ -43,27 +43,31 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Archibald Chain\CLionProjects\newPorject"
+CMAKE_SOURCE_DIR = I:\Programming\CppWorkspace\CPP_course
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug"
+CMAKE_BINARY_DIR = I:\Programming\CppWorkspace\CPP_course\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/newPorject.dir/all
 all: CMakeFiles/Lab2Ex3.dir/all
 all: CMakeFiles/Lab.dir/all
 all: CMakeFiles/Lab2Ex2.dir/all
+all: CMakeFiles/Assignment2.dir/all
+all: CMakeFiles/test_csv.dir/all
+all: CMakeFiles/Lab7ex2.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/newPorject.dir/clean
 clean: CMakeFiles/Lab2Ex3.dir/clean
 clean: CMakeFiles/Lab.dir/clean
 clean: CMakeFiles/Lab2Ex2.dir/clean
+clean: CMakeFiles/Assignment2.dir/clean
+clean: CMakeFiles/test_csv.dir/clean
+clean: CMakeFiles/Lab7ex2.dir/clean
 
 .PHONY : clean
 
@@ -73,47 +77,20 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/newPorject.dir
-
-# All Build rule for target.
-CMakeFiles/newPorject.dir/all:
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/depend
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" --progress-num=7,8,9 "Built target newPorject"
-.PHONY : CMakeFiles/newPorject.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/newPorject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/newPorject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/newPorject.dir/rule
-
-# Convenience name for target.
-newPorject: CMakeFiles/newPorject.dir/rule
-
-.PHONY : newPorject
-
-# clean rule for target.
-CMakeFiles/newPorject.dir/clean:
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/clean
-.PHONY : CMakeFiles/newPorject.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/Lab2Ex3.dir
 
 # All Build rule for target.
 CMakeFiles/Lab2Ex3.dir/all:
 	$(MAKE) -f CMakeFiles\Lab2Ex3.dir\build.make CMakeFiles/Lab2Ex3.dir/depend
 	$(MAKE) -f CMakeFiles\Lab2Ex3.dir\build.make CMakeFiles/Lab2Ex3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target Lab2Ex3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Lab2Ex3"
 .PHONY : CMakeFiles/Lab2Ex3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab2Ex3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Lab2Ex3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Lab2Ex3.dir/rule
 
 # Convenience name for target.
@@ -133,14 +110,14 @@ CMakeFiles/Lab2Ex3.dir/clean:
 CMakeFiles/Lab.dir/all:
 	$(MAKE) -f CMakeFiles\Lab.dir\build.make CMakeFiles/Lab.dir/depend
 	$(MAKE) -f CMakeFiles\Lab.dir\build.make CMakeFiles/Lab.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Lab"
 .PHONY : CMakeFiles/Lab.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Lab.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Lab.dir/rule
 
 # Convenience name for target.
@@ -160,14 +137,14 @@ CMakeFiles/Lab.dir/clean:
 CMakeFiles/Lab2Ex2.dir/all:
 	$(MAKE) -f CMakeFiles\Lab2Ex2.dir\build.make CMakeFiles/Lab2Ex2.dir/depend
 	$(MAKE) -f CMakeFiles\Lab2Ex2.dir\build.make CMakeFiles/Lab2Ex2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target Lab2Ex2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target Lab2Ex2"
 .PHONY : CMakeFiles/Lab2Ex2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lab2Ex2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Lab2Ex2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Lab2Ex2.dir/rule
 
 # Convenience name for target.
@@ -179,6 +156,87 @@ Lab2Ex2: CMakeFiles/Lab2Ex2.dir/rule
 CMakeFiles/Lab2Ex2.dir/clean:
 	$(MAKE) -f CMakeFiles\Lab2Ex2.dir\build.make CMakeFiles/Lab2Ex2.dir/clean
 .PHONY : CMakeFiles/Lab2Ex2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Assignment2.dir
+
+# All Build rule for target.
+CMakeFiles/Assignment2.dir/all:
+	$(MAKE) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/depend
+	$(MAKE) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Assignment2"
+.PHONY : CMakeFiles/Assignment2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Assignment2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Assignment2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Assignment2.dir/rule
+
+# Convenience name for target.
+Assignment2: CMakeFiles/Assignment2.dir/rule
+
+.PHONY : Assignment2
+
+# clean rule for target.
+CMakeFiles/Assignment2.dir/clean:
+	$(MAKE) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/clean
+.PHONY : CMakeFiles/Assignment2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_csv.dir
+
+# All Build rule for target.
+CMakeFiles/test_csv.dir/all:
+	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/depend
+	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target test_csv"
+.PHONY : CMakeFiles/test_csv.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_csv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/test_csv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/test_csv.dir/rule
+
+# Convenience name for target.
+test_csv: CMakeFiles/test_csv.dir/rule
+
+.PHONY : test_csv
+
+# clean rule for target.
+CMakeFiles/test_csv.dir/clean:
+	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/clean
+.PHONY : CMakeFiles/test_csv.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Lab7ex2.dir
+
+# All Build rule for target.
+CMakeFiles/Lab7ex2.dir/all:
+	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/depend
+	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Lab7ex2"
+.PHONY : CMakeFiles/Lab7ex2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Lab7ex2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Lab7ex2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Lab7ex2.dir/rule
+
+# Convenience name for target.
+Lab7ex2: CMakeFiles/Lab7ex2.dir/rule
+
+.PHONY : Lab7ex2
+
+# clean rule for target.
+CMakeFiles/Lab7ex2.dir/clean:
+	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/clean
+.PHONY : CMakeFiles/Lab7ex2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

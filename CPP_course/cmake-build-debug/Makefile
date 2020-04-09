@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Archibald Chain\CLionProjects\newPorject"
+CMAKE_SOURCE_DIR = I:\Programming\CppWorkspace\CPP_course
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug"
+CMAKE_BINARY_DIR = I:\Programming\CppWorkspace\CPP_course\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Archibald Chain\CLionProjects\newPorject\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -108,19 +108,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named newPorject
-
-# Build rule for target.
-newPorject: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 newPorject
-.PHONY : newPorject
-
-# fast build rule for target.
-newPorject/fast:
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/build
-.PHONY : newPorject/fast
 
 #=============================================================================
 # Target rules for targets named Lab2Ex3
@@ -161,32 +148,98 @@ Lab2Ex2/fast:
 	$(MAKE) -f CMakeFiles\Lab2Ex2.dir\build.make CMakeFiles/Lab2Ex2.dir/build
 .PHONY : Lab2Ex2/fast
 
-Assignment/Assignment1.obj: Assignment/Assignment1.cpp.obj
+#=============================================================================
+# Target rules for targets named Assignment2
 
-.PHONY : Assignment/Assignment1.obj
+# Build rule for target.
+Assignment2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Assignment2
+.PHONY : Assignment2
+
+# fast build rule for target.
+Assignment2/fast:
+	$(MAKE) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/build
+.PHONY : Assignment2/fast
+
+#=============================================================================
+# Target rules for targets named test_csv
+
+# Build rule for target.
+test_csv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test_csv
+.PHONY : test_csv
+
+# fast build rule for target.
+test_csv/fast:
+	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/build
+.PHONY : test_csv/fast
+
+#=============================================================================
+# Target rules for targets named Lab7ex2
+
+# Build rule for target.
+Lab7ex2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Lab7ex2
+.PHONY : Lab7ex2
+
+# fast build rule for target.
+Lab7ex2/fast:
+	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/build
+.PHONY : Lab7ex2/fast
+
+Assignment/Assignment2.obj: Assignment/Assignment2.cpp.obj
+
+.PHONY : Assignment/Assignment2.obj
 
 # target to build an object file
-Assignment/Assignment1.cpp.obj:
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/Assignment/Assignment1.cpp.obj
-.PHONY : Assignment/Assignment1.cpp.obj
+Assignment/Assignment2.cpp.obj:
+	$(MAKE) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/Assignment/Assignment2.cpp.obj
+.PHONY : Assignment/Assignment2.cpp.obj
 
-Assignment/Assignment1.i: Assignment/Assignment1.cpp.i
+Assignment/Assignment2.i: Assignment/Assignment2.cpp.i
 
-.PHONY : Assignment/Assignment1.i
+.PHONY : Assignment/Assignment2.i
 
 # target to preprocess a source file
-Assignment/Assignment1.cpp.i:
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/Assignment/Assignment1.cpp.i
-.PHONY : Assignment/Assignment1.cpp.i
+Assignment/Assignment2.cpp.i:
+	$(MAKE) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/Assignment/Assignment2.cpp.i
+.PHONY : Assignment/Assignment2.cpp.i
 
-Assignment/Assignment1.s: Assignment/Assignment1.cpp.s
+Assignment/Assignment2.s: Assignment/Assignment2.cpp.s
 
-.PHONY : Assignment/Assignment1.s
+.PHONY : Assignment/Assignment2.s
 
 # target to generate assembly for a file
-Assignment/Assignment1.cpp.s:
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/Assignment/Assignment1.cpp.s
-.PHONY : Assignment/Assignment1.cpp.s
+Assignment/Assignment2.cpp.s:
+	$(MAKE) -f CMakeFiles\Assignment2.dir\build.make CMakeFiles/Assignment2.dir/Assignment/Assignment2.cpp.s
+.PHONY : Assignment/Assignment2.cpp.s
+
+Assignment/test_csv.obj: Assignment/test_csv.cpp.obj
+
+.PHONY : Assignment/test_csv.obj
+
+# target to build an object file
+Assignment/test_csv.cpp.obj:
+	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/Assignment/test_csv.cpp.obj
+.PHONY : Assignment/test_csv.cpp.obj
+
+Assignment/test_csv.i: Assignment/test_csv.cpp.i
+
+.PHONY : Assignment/test_csv.i
+
+# target to preprocess a source file
+Assignment/test_csv.cpp.i:
+	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/Assignment/test_csv.cpp.i
+.PHONY : Assignment/test_csv.cpp.i
+
+Assignment/test_csv.s: Assignment/test_csv.cpp.s
+
+.PHONY : Assignment/test_csv.s
+
+# target to generate assembly for a file
+Assignment/test_csv.cpp.s:
+	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/Assignment/test_csv.cpp.s
+.PHONY : Assignment/test_csv.cpp.s
 
 Lab/Lab2/Exercise1.obj: Lab/Lab2/Exercise1.cpp.obj
 
@@ -248,7 +301,6 @@ Lab/Lab2/Exercise3.obj: Lab/Lab2/Exercise3.cpp.obj
 
 # target to build an object file
 Lab/Lab2/Exercise3.cpp.obj:
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/Lab/Lab2/Exercise3.cpp.obj
 	$(MAKE) -f CMakeFiles\Lab2Ex3.dir\build.make CMakeFiles/Lab2Ex3.dir/Lab/Lab2/Exercise3.cpp.obj
 .PHONY : Lab/Lab2/Exercise3.cpp.obj
 
@@ -258,7 +310,6 @@ Lab/Lab2/Exercise3.i: Lab/Lab2/Exercise3.cpp.i
 
 # target to preprocess a source file
 Lab/Lab2/Exercise3.cpp.i:
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/Lab/Lab2/Exercise3.cpp.i
 	$(MAKE) -f CMakeFiles\Lab2Ex3.dir\build.make CMakeFiles/Lab2Ex3.dir/Lab/Lab2/Exercise3.cpp.i
 .PHONY : Lab/Lab2/Exercise3.cpp.i
 
@@ -268,9 +319,35 @@ Lab/Lab2/Exercise3.s: Lab/Lab2/Exercise3.cpp.s
 
 # target to generate assembly for a file
 Lab/Lab2/Exercise3.cpp.s:
-	$(MAKE) -f CMakeFiles\newPorject.dir\build.make CMakeFiles/newPorject.dir/Lab/Lab2/Exercise3.cpp.s
 	$(MAKE) -f CMakeFiles\Lab2Ex3.dir\build.make CMakeFiles/Lab2Ex3.dir/Lab/Lab2/Exercise3.cpp.s
 .PHONY : Lab/Lab2/Exercise3.cpp.s
+
+Lab/Lab7/Lab7ex2.obj: Lab/Lab7/Lab7ex2.cpp.obj
+
+.PHONY : Lab/Lab7/Lab7ex2.obj
+
+# target to build an object file
+Lab/Lab7/Lab7ex2.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/Lab/Lab7/Lab7ex2.cpp.obj
+.PHONY : Lab/Lab7/Lab7ex2.cpp.obj
+
+Lab/Lab7/Lab7ex2.i: Lab/Lab7/Lab7ex2.cpp.i
+
+.PHONY : Lab/Lab7/Lab7ex2.i
+
+# target to preprocess a source file
+Lab/Lab7/Lab7ex2.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/Lab/Lab7/Lab7ex2.cpp.i
+.PHONY : Lab/Lab7/Lab7ex2.cpp.i
+
+Lab/Lab7/Lab7ex2.s: Lab/Lab7/Lab7ex2.cpp.s
+
+.PHONY : Lab/Lab7/Lab7ex2.s
+
+# target to generate assembly for a file
+Lab/Lab7/Lab7ex2.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/Lab/Lab7/Lab7ex2.cpp.s
+.PHONY : Lab/Lab7/Lab7ex2.cpp.s
 
 # Help Target
 help:
@@ -278,15 +355,20 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
-	@echo ... newPorject
 	@echo ... Lab2Ex3
 	@echo ... Lab
 	@echo ... Lab2Ex2
+	@echo ... Assignment2
+	@echo ... test_csv
+	@echo ... Lab7ex2
+	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Assignment/Assignment1.obj
-	@echo ... Assignment/Assignment1.i
-	@echo ... Assignment/Assignment1.s
+	@echo ... Assignment/Assignment2.obj
+	@echo ... Assignment/Assignment2.i
+	@echo ... Assignment/Assignment2.s
+	@echo ... Assignment/test_csv.obj
+	@echo ... Assignment/test_csv.i
+	@echo ... Assignment/test_csv.s
 	@echo ... Lab/Lab2/Exercise1.obj
 	@echo ... Lab/Lab2/Exercise1.i
 	@echo ... Lab/Lab2/Exercise1.s
@@ -296,6 +378,9 @@ help:
 	@echo ... Lab/Lab2/Exercise3.obj
 	@echo ... Lab/Lab2/Exercise3.i
 	@echo ... Lab/Lab2/Exercise3.s
+	@echo ... Lab/Lab7/Lab7ex2.obj
+	@echo ... Lab/Lab7/Lab7ex2.i
+	@echo ... Lab/Lab7/Lab7ex2.s
 .PHONY : help
 
 

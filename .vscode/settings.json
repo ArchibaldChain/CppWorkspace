@@ -4,6 +4,8 @@
           "*.tcc": "cpp",
           "istream": "cpp",
           "string": "cpp",
-          "new": "cpp"
-     }
+          "new": "cpp",
+          "fstream": "cpp"
+     },
+     "C_Cpp.errorSquiggles": "Enabled"
 }
