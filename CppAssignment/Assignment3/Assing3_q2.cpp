@@ -88,14 +88,11 @@ void up(int mat[], int x, int y)
         left(mat, x, y);
 }
 
-int main()
+/*
+Dispaly the matrix
+*/
+void show_matrix(int matrix[])
 {
-    cin >> m >> n;
-    int matrix[m * n] = {0};
-    matrix[n - 1] = 1;
-    cout << " ** ";
-    left(matrix, 0, n - 1);
-    cout << " ** ";
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
@@ -104,4 +101,13 @@ int main()
         }
         cout << endl;
     }
+}
+
+int main()
+{
+    cin >> m >> n;
+    int matrix[m * n] = {0};
+    matrix[n - 1] = 1;
+    left(matrix, 0, n - 1);
+    show_matrix(matrix);
 }
