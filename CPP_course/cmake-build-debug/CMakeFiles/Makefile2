@@ -52,22 +52,30 @@ CMAKE_BINARY_DIR = I:\Programming\CppWorkspace\CPP_course\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Midterm3.dir/all
 all: CMakeFiles/Lab2Ex3.dir/all
 all: CMakeFiles/Lab.dir/all
 all: CMakeFiles/Lab2Ex2.dir/all
+all: CMakeFiles/Midterm2.dir/all
 all: CMakeFiles/Assignment2.dir/all
 all: CMakeFiles/test_csv.dir/all
+all: CMakeFiles/Midterm1.dir/all
 all: CMakeFiles/Lab7ex2.dir/all
+all: CMakeFiles/Midterm4.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Midterm3.dir/clean
 clean: CMakeFiles/Lab2Ex3.dir/clean
 clean: CMakeFiles/Lab.dir/clean
 clean: CMakeFiles/Lab2Ex2.dir/clean
+clean: CMakeFiles/Midterm2.dir/clean
 clean: CMakeFiles/Assignment2.dir/clean
 clean: CMakeFiles/test_csv.dir/clean
+clean: CMakeFiles/Midterm1.dir/clean
 clean: CMakeFiles/Lab7ex2.dir/clean
+clean: CMakeFiles/Midterm4.dir/clean
 
 .PHONY : clean
 
@@ -75,6 +83,33 @@ clean: CMakeFiles/Lab7ex2.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/Midterm3.dir
+
+# All Build rule for target.
+CMakeFiles/Midterm3.dir/all:
+	$(MAKE) -f CMakeFiles\Midterm3.dir\build.make CMakeFiles/Midterm3.dir/depend
+	$(MAKE) -f CMakeFiles\Midterm3.dir\build.make CMakeFiles/Midterm3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target Midterm3"
+.PHONY : CMakeFiles/Midterm3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Midterm3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Midterm3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Midterm3.dir/rule
+
+# Convenience name for target.
+Midterm3: CMakeFiles/Midterm3.dir/rule
+
+.PHONY : Midterm3
+
+# clean rule for target.
+CMakeFiles/Midterm3.dir/clean:
+	$(MAKE) -f CMakeFiles\Midterm3.dir\build.make CMakeFiles/Midterm3.dir/clean
+.PHONY : CMakeFiles/Midterm3.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Lab2Ex3.dir
@@ -158,6 +193,33 @@ CMakeFiles/Lab2Ex2.dir/clean:
 .PHONY : CMakeFiles/Lab2Ex2.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Midterm2.dir
+
+# All Build rule for target.
+CMakeFiles/Midterm2.dir/all:
+	$(MAKE) -f CMakeFiles\Midterm2.dir\build.make CMakeFiles/Midterm2.dir/depend
+	$(MAKE) -f CMakeFiles\Midterm2.dir\build.make CMakeFiles/Midterm2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target Midterm2"
+.PHONY : CMakeFiles/Midterm2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Midterm2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Midterm2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Midterm2.dir/rule
+
+# Convenience name for target.
+Midterm2: CMakeFiles/Midterm2.dir/rule
+
+.PHONY : Midterm2
+
+# clean rule for target.
+CMakeFiles/Midterm2.dir/clean:
+	$(MAKE) -f CMakeFiles\Midterm2.dir\build.make CMakeFiles/Midterm2.dir/clean
+.PHONY : CMakeFiles/Midterm2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Assignment2.dir
 
 # All Build rule for target.
@@ -191,7 +253,7 @@ CMakeFiles/Assignment2.dir/clean:
 CMakeFiles/test_csv.dir/all:
 	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/depend
 	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target test_csv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target test_csv"
 .PHONY : CMakeFiles/test_csv.dir/all
 
 # Build rule for subdir invocation for target.
@@ -210,6 +272,33 @@ test_csv: CMakeFiles/test_csv.dir/rule
 CMakeFiles/test_csv.dir/clean:
 	$(MAKE) -f CMakeFiles\test_csv.dir\build.make CMakeFiles/test_csv.dir/clean
 .PHONY : CMakeFiles/test_csv.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Midterm1.dir
+
+# All Build rule for target.
+CMakeFiles/Midterm1.dir/all:
+	$(MAKE) -f CMakeFiles\Midterm1.dir\build.make CMakeFiles/Midterm1.dir/depend
+	$(MAKE) -f CMakeFiles\Midterm1.dir\build.make CMakeFiles/Midterm1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Midterm1"
+.PHONY : CMakeFiles/Midterm1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Midterm1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Midterm1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Midterm1.dir/rule
+
+# Convenience name for target.
+Midterm1: CMakeFiles/Midterm1.dir/rule
+
+.PHONY : Midterm1
+
+# clean rule for target.
+CMakeFiles/Midterm1.dir/clean:
+	$(MAKE) -f CMakeFiles\Midterm1.dir\build.make CMakeFiles/Midterm1.dir/clean
+.PHONY : CMakeFiles/Midterm1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Lab7ex2.dir
@@ -237,6 +326,33 @@ Lab7ex2: CMakeFiles/Lab7ex2.dir/rule
 CMakeFiles/Lab7ex2.dir/clean:
 	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/clean
 .PHONY : CMakeFiles/Lab7ex2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Midterm4.dir
+
+# All Build rule for target.
+CMakeFiles/Midterm4.dir/all:
+	$(MAKE) -f CMakeFiles\Midterm4.dir\build.make CMakeFiles/Midterm4.dir/depend
+	$(MAKE) -f CMakeFiles\Midterm4.dir\build.make CMakeFiles/Midterm4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target Midterm4"
+.PHONY : CMakeFiles/Midterm4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Midterm4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Midterm4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start I:\Programming\CppWorkspace\CPP_course\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Midterm4.dir/rule
+
+# Convenience name for target.
+Midterm4: CMakeFiles/Midterm4.dir/rule
+
+.PHONY : Midterm4
+
+# clean rule for target.
+CMakeFiles/Midterm4.dir/clean:
+	$(MAKE) -f CMakeFiles\Midterm4.dir\build.make CMakeFiles/Midterm4.dir/clean
+.PHONY : CMakeFiles/Midterm4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

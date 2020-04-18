@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Midterm3
+
+# Build rule for target.
+Midterm3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Midterm3
+.PHONY : Midterm3
+
+# fast build rule for target.
+Midterm3/fast:
+	$(MAKE) -f CMakeFiles\Midterm3.dir\build.make CMakeFiles/Midterm3.dir/build
+.PHONY : Midterm3/fast
+
+#=============================================================================
 # Target rules for targets named Lab2Ex3
 
 # Build rule for target.
@@ -149,6 +162,19 @@ Lab2Ex2/fast:
 .PHONY : Lab2Ex2/fast
 
 #=============================================================================
+# Target rules for targets named Midterm2
+
+# Build rule for target.
+Midterm2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Midterm2
+.PHONY : Midterm2
+
+# fast build rule for target.
+Midterm2/fast:
+	$(MAKE) -f CMakeFiles\Midterm2.dir\build.make CMakeFiles/Midterm2.dir/build
+.PHONY : Midterm2/fast
+
+#=============================================================================
 # Target rules for targets named Assignment2
 
 # Build rule for target.
@@ -175,6 +201,19 @@ test_csv/fast:
 .PHONY : test_csv/fast
 
 #=============================================================================
+# Target rules for targets named Midterm1
+
+# Build rule for target.
+Midterm1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Midterm1
+.PHONY : Midterm1
+
+# fast build rule for target.
+Midterm1/fast:
+	$(MAKE) -f CMakeFiles\Midterm1.dir\build.make CMakeFiles/Midterm1.dir/build
+.PHONY : Midterm1/fast
+
+#=============================================================================
 # Target rules for targets named Lab7ex2
 
 # Build rule for target.
@@ -186,6 +225,19 @@ Lab7ex2: cmake_check_build_system
 Lab7ex2/fast:
 	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/build
 .PHONY : Lab7ex2/fast
+
+#=============================================================================
+# Target rules for targets named Midterm4
+
+# Build rule for target.
+Midterm4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Midterm4
+.PHONY : Midterm4
+
+# fast build rule for target.
+Midterm4/fast:
+	$(MAKE) -f CMakeFiles\Midterm4.dir\build.make CMakeFiles/Midterm4.dir/build
+.PHONY : Midterm4/fast
 
 Assignment/Assignment2.obj: Assignment/Assignment2.cpp.obj
 
@@ -349,18 +401,130 @@ Lab/Lab7/Lab7ex2.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab7ex2.dir\build.make CMakeFiles/Lab7ex2.dir/Lab/Lab7/Lab7ex2.cpp.s
 .PHONY : Lab/Lab7/Lab7ex2.cpp.s
 
+Midterm/Question1.obj: Midterm/Question1.cpp.obj
+
+.PHONY : Midterm/Question1.obj
+
+# target to build an object file
+Midterm/Question1.cpp.obj:
+	$(MAKE) -f CMakeFiles\Midterm1.dir\build.make CMakeFiles/Midterm1.dir/Midterm/Question1.cpp.obj
+.PHONY : Midterm/Question1.cpp.obj
+
+Midterm/Question1.i: Midterm/Question1.cpp.i
+
+.PHONY : Midterm/Question1.i
+
+# target to preprocess a source file
+Midterm/Question1.cpp.i:
+	$(MAKE) -f CMakeFiles\Midterm1.dir\build.make CMakeFiles/Midterm1.dir/Midterm/Question1.cpp.i
+.PHONY : Midterm/Question1.cpp.i
+
+Midterm/Question1.s: Midterm/Question1.cpp.s
+
+.PHONY : Midterm/Question1.s
+
+# target to generate assembly for a file
+Midterm/Question1.cpp.s:
+	$(MAKE) -f CMakeFiles\Midterm1.dir\build.make CMakeFiles/Midterm1.dir/Midterm/Question1.cpp.s
+.PHONY : Midterm/Question1.cpp.s
+
+Midterm/Question2.obj: Midterm/Question2.cpp.obj
+
+.PHONY : Midterm/Question2.obj
+
+# target to build an object file
+Midterm/Question2.cpp.obj:
+	$(MAKE) -f CMakeFiles\Midterm2.dir\build.make CMakeFiles/Midterm2.dir/Midterm/Question2.cpp.obj
+.PHONY : Midterm/Question2.cpp.obj
+
+Midterm/Question2.i: Midterm/Question2.cpp.i
+
+.PHONY : Midterm/Question2.i
+
+# target to preprocess a source file
+Midterm/Question2.cpp.i:
+	$(MAKE) -f CMakeFiles\Midterm2.dir\build.make CMakeFiles/Midterm2.dir/Midterm/Question2.cpp.i
+.PHONY : Midterm/Question2.cpp.i
+
+Midterm/Question2.s: Midterm/Question2.cpp.s
+
+.PHONY : Midterm/Question2.s
+
+# target to generate assembly for a file
+Midterm/Question2.cpp.s:
+	$(MAKE) -f CMakeFiles\Midterm2.dir\build.make CMakeFiles/Midterm2.dir/Midterm/Question2.cpp.s
+.PHONY : Midterm/Question2.cpp.s
+
+Midterm/Question3.obj: Midterm/Question3.cpp.obj
+
+.PHONY : Midterm/Question3.obj
+
+# target to build an object file
+Midterm/Question3.cpp.obj:
+	$(MAKE) -f CMakeFiles\Midterm3.dir\build.make CMakeFiles/Midterm3.dir/Midterm/Question3.cpp.obj
+.PHONY : Midterm/Question3.cpp.obj
+
+Midterm/Question3.i: Midterm/Question3.cpp.i
+
+.PHONY : Midterm/Question3.i
+
+# target to preprocess a source file
+Midterm/Question3.cpp.i:
+	$(MAKE) -f CMakeFiles\Midterm3.dir\build.make CMakeFiles/Midterm3.dir/Midterm/Question3.cpp.i
+.PHONY : Midterm/Question3.cpp.i
+
+Midterm/Question3.s: Midterm/Question3.cpp.s
+
+.PHONY : Midterm/Question3.s
+
+# target to generate assembly for a file
+Midterm/Question3.cpp.s:
+	$(MAKE) -f CMakeFiles\Midterm3.dir\build.make CMakeFiles/Midterm3.dir/Midterm/Question3.cpp.s
+.PHONY : Midterm/Question3.cpp.s
+
+Midterm/Question4.obj: Midterm/Question4.cpp.obj
+
+.PHONY : Midterm/Question4.obj
+
+# target to build an object file
+Midterm/Question4.cpp.obj:
+	$(MAKE) -f CMakeFiles\Midterm4.dir\build.make CMakeFiles/Midterm4.dir/Midterm/Question4.cpp.obj
+.PHONY : Midterm/Question4.cpp.obj
+
+Midterm/Question4.i: Midterm/Question4.cpp.i
+
+.PHONY : Midterm/Question4.i
+
+# target to preprocess a source file
+Midterm/Question4.cpp.i:
+	$(MAKE) -f CMakeFiles\Midterm4.dir\build.make CMakeFiles/Midterm4.dir/Midterm/Question4.cpp.i
+.PHONY : Midterm/Question4.cpp.i
+
+Midterm/Question4.s: Midterm/Question4.cpp.s
+
+.PHONY : Midterm/Question4.s
+
+# target to generate assembly for a file
+Midterm/Question4.cpp.s:
+	$(MAKE) -f CMakeFiles\Midterm4.dir\build.make CMakeFiles/Midterm4.dir/Midterm/Question4.cpp.s
+.PHONY : Midterm/Question4.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Midterm3
 	@echo ... Lab2Ex3
 	@echo ... Lab
 	@echo ... Lab2Ex2
+	@echo ... Midterm2
 	@echo ... Assignment2
 	@echo ... test_csv
+	@echo ... Midterm1
 	@echo ... Lab7ex2
+	@echo ... Midterm4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Assignment/Assignment2.obj
@@ -381,6 +545,18 @@ help:
 	@echo ... Lab/Lab7/Lab7ex2.obj
 	@echo ... Lab/Lab7/Lab7ex2.i
 	@echo ... Lab/Lab7/Lab7ex2.s
+	@echo ... Midterm/Question1.obj
+	@echo ... Midterm/Question1.i
+	@echo ... Midterm/Question1.s
+	@echo ... Midterm/Question2.obj
+	@echo ... Midterm/Question2.i
+	@echo ... Midterm/Question2.s
+	@echo ... Midterm/Question3.obj
+	@echo ... Midterm/Question3.i
+	@echo ... Midterm/Question3.s
+	@echo ... Midterm/Question4.obj
+	@echo ... Midterm/Question4.i
+	@echo ... Midterm/Question4.s
 .PHONY : help
 
 

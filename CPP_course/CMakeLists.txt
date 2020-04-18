@@ -10,3 +10,8 @@ add_executable(Lab2Ex3 Lab/Lab2/Exercise3.cpp)
 add_executable(test_csv Assignment/test_csv.cpp)
 add_executable(Assignment2 Assignment/Assignment2.cpp)
 add_executable(Lab7ex2 Lab/Lab7/Lab7ex2.cpp)
+add_executable(Midterm1 Midterm/Question1.cpp)
+add_executable(Midterm2 Midterm/Question2.cpp)
+add_executable(Midterm3 Midterm/Question3.cpp)
+add_executable(Midterm4 Midterm/Question4.cpp)
+

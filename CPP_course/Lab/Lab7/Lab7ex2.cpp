@@ -11,40 +11,42 @@ struct box
 };
 using namespace std;
 
-box fun1()
+box set_box(box b)
 {
-    box b = {
-        "", 3.4, 4.5, 5.6, 0
-    };
-    strcpy(b.maker,"Jinan University" );
+    b.height = 3.4;
+    b.width = 4.5;
+    b.length = 5.6;
+    b.volume = 0;
+    strcpy(b.maker, "Jinan University");
 
+    cout << "Maker:" << b.maker << endl;
+    cout << "Height:" << b.height << endl;
+    cout << "Length:" << b.length << endl;
+    cout << "Width:" << b.width << endl;
+    cout << "volume:" << b.volume << endl;
 
     return b;
 }
 
-box fun2(box b)
+void change_box(box *b)
 {
-    b.volume = b.length * b.height * b.width;
-    strcpy(b.maker, "Jinan University" );
-    return b;
+    b->volume = b->length * b->height * b->width;
 }
 
 int main()
 {
     cout << "before setting valume:" << endl;
-    box b = fun1();
-    cout << b.maker << endl;
-    cout << b.height << endl;
-    cout << b.length << endl;
-    cout << b.width << endl;
-    cout << b.volume << endl;
+    box b;
+    b = set_box(b);
 
     cout << "After setting valume:" << endl;
-    box b2 = fun2(b);
+    change_box(&b);
 
-    cout << b2.maker << endl;
-    cout << b2.height << endl;
-    cout << b2.length << endl;
-    cout << b2.width << endl;
-    cout << b2.volume << endl;
+    cout << "Maker:" << b.maker << endl;
+    cout << "Height:" << b.height << endl;
+    cout << "Length:" << b.length << endl;
+    cout << "Width:" << b.width << endl;
+    cout << "volume:" << b.volume << endl;
+
+    return 0;
 }
