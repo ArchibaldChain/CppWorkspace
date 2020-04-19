@@ -18,13 +18,6 @@ int main(int argc, char **argv) {
 
     for (i = 1; i < argc; i++) {
       p = (unsigned char *)argv[i];
-      // Print as hexa encoding
-      while (*p) {
-         printf("%0X ", *p);
-         p++;
-      }
-      putchar('\n');
-      p = (unsigned char *)argv[i];
       while (*p) {
         codepoint = utf8_to_codepoint(p, &bytes_in_char);
         if (codepoint) {

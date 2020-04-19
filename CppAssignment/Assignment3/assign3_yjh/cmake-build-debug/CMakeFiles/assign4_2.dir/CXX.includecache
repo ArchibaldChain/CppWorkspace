@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CProjects/assign4/assign4_2.cpp
+iostream
+-
+fstream
+-
+string
+-
+utf8.h
+E:/CProjects/assign4/utf8.h
+
+E:/CProjects/assign4/utf8.h
+

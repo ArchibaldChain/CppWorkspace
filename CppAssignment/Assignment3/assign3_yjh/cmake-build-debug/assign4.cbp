@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="assign4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assign4">
+				<Option output="E:/CProjects/assign4/cmake-build-debug/assign4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 assign4"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assign4/fast">
+				<Option output="E:/CProjects/assign4/cmake-build-debug/assign4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 assign4/fast"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assign4_1">
+				<Option output="E:/CProjects/assign4/cmake-build-debug/assign4_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 assign4_1"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assign4_1/fast">
+				<Option output="E:/CProjects/assign4/cmake-build-debug/assign4_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 assign4_1/fast"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codepoint">
+				<Option output="E:/CProjects/assign4/cmake-build-debug/codepoint.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 codepoint"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codepoint/fast">
+				<Option output="E:/CProjects/assign4/cmake-build-debug/codepoint.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 codepoint/fast"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assign4_2">
+				<Option output="E:/CProjects/assign4/cmake-build-debug/assign4_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 assign4_2"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assign4_2/fast">
+				<Option output="E:/CProjects/assign4/cmake-build-debug/assign4_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CProjects/assign4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 assign4_2/fast"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/CProjects/assign4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CProjects/assign4/assign4_1.cpp">
+			<Option target="assign4_1"/>
+		</Unit>
+		<Unit filename="E:/CProjects/assign4/assign4_2.cpp">
+			<Option target="assign4_2"/>
+		</Unit>
+		<Unit filename="E:/CProjects/assign4/main.cpp">
+			<Option target="assign4"/>
+		</Unit>
+		<Unit filename="E:/CProjects/assign4/using_utf8_to_codepoint.c">
+			<Option target="codepoint"/>
+		</Unit>
+		<Unit filename="E:/CProjects/assign4/utf8.c">
+			<Option target="assign4"/>
+			<Option target="assign4_1"/>
+			<Option target="codepoint"/>
+			<Option target="assign4_2"/>
+		</Unit>
+		<Unit filename="E:/CProjects/assign4/utf8.h">
+			<Option target="assign4"/>
+			<Option target="assign4_1"/>
+			<Option target="codepoint"/>
+			<Option target="assign4_2"/>
+		</Unit>
+		<Unit filename="E:/CProjects/assign4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

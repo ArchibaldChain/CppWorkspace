@@ -27,7 +27,6 @@ void left(int mat[], int x, int y)
     if (matrix(mat, x, y) == m * n)
         return;
 
-    cout << "left" << matrix(mat, x, y) << endl;
     if (matrix(mat, x, y - 1) == 0)
     {
         mat[x * n + y - 1] = matrix(mat, x, y) + 1;
@@ -44,7 +43,6 @@ void down(int mat[], int x, int y)
 {
     if (matrix(mat, x, y) == m * n)
         return;
-    cout << "down" << matrix(mat, x, y) << endl;
     if (matrix(mat, x + 1, y) == 0)
     {
         mat[(x + 1) * n + y] = matrix(mat, x, y) + 1;

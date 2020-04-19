@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+I:/Programming/CppWorkspace/CppAssignment/Assignment3/Assign_q3/Assign_q3.cpp
+iostream
+-
+fstream
+-
+string
+-
+cstring
+-
+sstream
+-
+cmath
+-
+vector
+-
+utf8.h
+I:/Programming/CppWorkspace/CppAssignment/Assignment3/Assign_q3/utf8.h
+
+I:/Programming/CppWorkspace/CppAssignment/Assignment3/Assign_q3/utf8.h
+

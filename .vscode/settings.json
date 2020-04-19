@@ -5,7 +5,13 @@
           "istream": "cpp",
           "string": "cpp",
           "new": "cpp",
-          "fstream": "cpp"
+          "fstream": "cpp",
+          "iosfwd": "cpp",
+          "typeinfo": "cpp"
      },
-     "C_Cpp.errorSquiggles": "Enabled"
+     "C_Cpp.errorSquiggles": "Enabled",
+     "latex-workshop.view.pdf.external.viewer.command": "C:\\Appliction\\极速PDF阅读器\\JisuPdf.exe ",
+     "latex-workshop.view.pdf.external.viewer.args": [
+          "%PDF%"
+     ]
 }
