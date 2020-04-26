@@ -212,4 +212,3 @@ int main()
     cout << endl
          << find_block().name;
 }
-#pragma clang diagnostic pop

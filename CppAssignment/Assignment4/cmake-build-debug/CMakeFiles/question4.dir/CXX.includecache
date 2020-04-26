@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+I:/Programming/CppWorkspace/CppAssignment/Assignment4/Assignment4.h
+iostream
+-
+random
+-
+cstring
+-
+fstream
+-
+
+I:/Programming/CppWorkspace/CppAssignment/Assignment4/question4.cpp
+Assignment4.h
+I:/Programming/CppWorkspace/CppAssignment/Assignment4/Assignment4.h
+sstream
+-
+

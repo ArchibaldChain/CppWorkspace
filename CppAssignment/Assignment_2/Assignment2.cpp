@@ -100,6 +100,7 @@ int input_file(string fileName)
         cout << "Input terminated by data mismatch.\n";
     else
         cout << "Input terminated for unknown reason.\n";
+    inFile.close();
     return 0;
 }
 
