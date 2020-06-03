@@ -1,4 +1,16 @@
 "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" I:\Programming\CppWorkspace\CppAssignment\Assignment4
 -- Configuring done
--- Generating done
--- Build files have been written to: I:/Programming/CppWorkspace/CppAssignment/Assignment4/cmake-build-debug
+CMake Error at CMakeLists.txt:12 (add_executable):
+  Cannot find source file:
+
+    test.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:12 (add_executable):
+  No SOURCES given to target: test
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

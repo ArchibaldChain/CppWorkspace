@@ -8,5 +8,14 @@ I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/test_csv.dir
 I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Midterm1.dir
 I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab7ex2.dir
 I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Midterm4.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab11ex1.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab11ex2.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab12ex1.dir
 I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/edit_cache.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab12ex2.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab13ex1.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab14ex1.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab14ex2.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/Lab15.dir
+I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/test.dir
 I:/Programming/CppWorkspace/CPP_course/cmake-build-debug/CMakeFiles/rebuild_cache.dir

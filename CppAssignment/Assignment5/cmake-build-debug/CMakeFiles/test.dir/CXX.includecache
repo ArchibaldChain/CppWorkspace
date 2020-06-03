@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/i/Programming/CppWorkspace/CppAssignment/Assignment5/UTF8string.cpp
+UTF8string.hpp
+/cygdrive/i/Programming/CppWorkspace/CppAssignment/Assignment5/UTF8string.hpp
+iostream
+-
+utf8.h
+/cygdrive/i/Programming/CppWorkspace/CppAssignment/Assignment5/utf8.h
+cstring
+-
+
+/cygdrive/i/Programming/CppWorkspace/CppAssignment/Assignment5/UTF8string.hpp
+iostream
+-
+utf8.h
+/cygdrive/i/Programming/CppWorkspace/CppAssignment/Assignment5/utf8.h
+
+/cygdrive/i/Programming/CppWorkspace/CppAssignment/Assignment5/utf8.h
+

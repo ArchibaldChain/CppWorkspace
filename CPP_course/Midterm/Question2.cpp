@@ -6,7 +6,7 @@
 
 using namespace std;
 
-struct Matrix{
+struct maxTemplate{
     int row;
     int column;
     int mat[];

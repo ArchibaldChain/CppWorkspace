@@ -29,5 +29,8 @@ int main(int argc, char const *argv[])
         << "test" << strcmp(x, "\n") << "**" << strcmp(x, "\0") << "**" << strcmp(x, "")
         << "**" << strcmp(x, "abcd");
 
+    const char *pt[5] = {"aaa", "bbbbb", "ccccc", "ddd", "e"};
+    char pt3[5] = "xxxx";
+    const char(*pt2)[5] = &pt3;
     return 0;
 }

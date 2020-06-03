@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/test.dir/main.cpp.o  -o bin/test.exe -Wl,--out-implib,bin/libtest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  /usr/lib/libopencv_highgui.dll.a /usr/lib/libopencv_videoio.dll.a /usr/lib/libopencv_imgcodecs.dll.a /usr/lib/libopencv_imgproc.dll.a /usr/lib/libopencv_core.dll.a 
