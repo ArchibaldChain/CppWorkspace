@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/main.cpp
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/main.cpp
 opencv.hpp
 -
 iostream

@@ -1,1 +1,0 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/test1.dir/Lab_10/detect_circles.cpp.o  -o bin/test1.exe -Wl,--out-implib,bin/libtest1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  /usr/lib/libopencv_highgui.dll.a /usr/lib/libopencv_videoio.dll.a /usr/lib/libopencv_imgcodecs.dll.a /usr/lib/libopencv_imgproc.dll.a /usr/lib/libopencv_core.dll.a 

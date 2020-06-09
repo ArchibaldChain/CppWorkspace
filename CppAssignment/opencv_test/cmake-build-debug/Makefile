@@ -48,10 +48,10 @@ RM = "/cygdrive/c/Users/Archibald Chain/AppData/Local/JetBrains/CLion2020.1/cygw
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test
+CMAKE_SOURCE_DIR = /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,43 +111,122 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test3
+# Target rules for targets named trajectory_test
 
 # Build rule for target.
-test3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test3
-.PHONY : test3
+trajectory_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_test
+.PHONY : trajectory_test
 
 # fast build rule for target.
-test3/fast:
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/build
-.PHONY : test3/fast
+trajectory_test/fast:
+	$(MAKE) -f CMakeFiles/trajectory_test.dir/build.make CMakeFiles/trajectory_test.dir/build
+.PHONY : trajectory_test/fast
 
 #=============================================================================
-# Target rules for targets named test5
+# Target rules for targets named face_detection
 
 # Build rule for target.
-test5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test5
-.PHONY : test5
+face_detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 face_detection
+.PHONY : face_detection
 
 # fast build rule for target.
-test5/fast:
-	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/build
-.PHONY : test5/fast
+face_detection/fast:
+	$(MAKE) -f CMakeFiles/face_detection.dir/build.make CMakeFiles/face_detection.dir/build
+.PHONY : face_detection/fast
 
 #=============================================================================
-# Target rules for targets named test4
+# Target rules for targets named circle_detection
 
 # Build rule for target.
-test4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test4
-.PHONY : test4
+circle_detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 circle_detection
+.PHONY : circle_detection
 
 # fast build rule for target.
-test4/fast:
-	$(MAKE) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/build
-.PHONY : test4/fast
+circle_detection/fast:
+	$(MAKE) -f CMakeFiles/circle_detection.dir/build.make CMakeFiles/circle_detection.dir/build
+.PHONY : circle_detection/fast
+
+#=============================================================================
+# Target rules for targets named Line_detection
+
+# Build rule for target.
+Line_detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Line_detection
+.PHONY : Line_detection
+
+# fast build rule for target.
+Line_detection/fast:
+	$(MAKE) -f CMakeFiles/Line_detection.dir/build.make CMakeFiles/Line_detection.dir/build
+.PHONY : Line_detection/fast
+
+#=============================================================================
+# Target rules for targets named Lab10_demo
+
+# Build rule for target.
+Lab10_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab10_demo
+.PHONY : Lab10_demo
+
+# fast build rule for target.
+Lab10_demo/fast:
+	$(MAKE) -f CMakeFiles/Lab10_demo.dir/build.make CMakeFiles/Lab10_demo.dir/build
+.PHONY : Lab10_demo/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named camera
+
+# Build rule for target.
+camera: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 camera
+.PHONY : camera
+
+# fast build rule for target.
+camera/fast:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/build
+.PHONY : camera/fast
+
+Lab_10/Cam.o: Lab_10/Cam.cpp.o
+
+.PHONY : Lab_10/Cam.o
+
+# target to build an object file
+Lab_10/Cam.cpp.o:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/Lab_10/Cam.cpp.o
+.PHONY : Lab_10/Cam.cpp.o
+
+Lab_10/Cam.i: Lab_10/Cam.cpp.i
+
+.PHONY : Lab_10/Cam.i
+
+# target to preprocess a source file
+Lab_10/Cam.cpp.i:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/Lab_10/Cam.cpp.i
+.PHONY : Lab_10/Cam.cpp.i
+
+Lab_10/Cam.s: Lab_10/Cam.cpp.s
+
+.PHONY : Lab_10/Cam.s
+
+# target to generate assembly for a file
+Lab_10/Cam.cpp.s:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/Lab_10/Cam.cpp.s
+.PHONY : Lab_10/Cam.cpp.s
 
 Lab_10/Line_detection.o: Lab_10/Line_detection.cpp.o
 
@@ -155,7 +234,7 @@ Lab_10/Line_detection.o: Lab_10/Line_detection.cpp.o
 
 # target to build an object file
 Lab_10/Line_detection.cpp.o:
-	$(MAKE) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/Lab_10/Line_detection.cpp.o
+	$(MAKE) -f CMakeFiles/Line_detection.dir/build.make CMakeFiles/Line_detection.dir/Lab_10/Line_detection.cpp.o
 .PHONY : Lab_10/Line_detection.cpp.o
 
 Lab_10/Line_detection.i: Lab_10/Line_detection.cpp.i
@@ -164,7 +243,7 @@ Lab_10/Line_detection.i: Lab_10/Line_detection.cpp.i
 
 # target to preprocess a source file
 Lab_10/Line_detection.cpp.i:
-	$(MAKE) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/Lab_10/Line_detection.cpp.i
+	$(MAKE) -f CMakeFiles/Line_detection.dir/build.make CMakeFiles/Line_detection.dir/Lab_10/Line_detection.cpp.i
 .PHONY : Lab_10/Line_detection.cpp.i
 
 Lab_10/Line_detection.s: Lab_10/Line_detection.cpp.s
@@ -173,7 +252,7 @@ Lab_10/Line_detection.s: Lab_10/Line_detection.cpp.s
 
 # target to generate assembly for a file
 Lab_10/Line_detection.cpp.s:
-	$(MAKE) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/Lab_10/Line_detection.cpp.s
+	$(MAKE) -f CMakeFiles/Line_detection.dir/build.make CMakeFiles/Line_detection.dir/Lab_10/Line_detection.cpp.s
 .PHONY : Lab_10/Line_detection.cpp.s
 
 Lab_10/detect_circles.o: Lab_10/detect_circles.cpp.o
@@ -182,7 +261,7 @@ Lab_10/detect_circles.o: Lab_10/detect_circles.cpp.o
 
 # target to build an object file
 Lab_10/detect_circles.cpp.o:
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/Lab_10/detect_circles.cpp.o
+	$(MAKE) -f CMakeFiles/circle_detection.dir/build.make CMakeFiles/circle_detection.dir/Lab_10/detect_circles.cpp.o
 .PHONY : Lab_10/detect_circles.cpp.o
 
 Lab_10/detect_circles.i: Lab_10/detect_circles.cpp.i
@@ -191,7 +270,7 @@ Lab_10/detect_circles.i: Lab_10/detect_circles.cpp.i
 
 # target to preprocess a source file
 Lab_10/detect_circles.cpp.i:
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/Lab_10/detect_circles.cpp.i
+	$(MAKE) -f CMakeFiles/circle_detection.dir/build.make CMakeFiles/circle_detection.dir/Lab_10/detect_circles.cpp.i
 .PHONY : Lab_10/detect_circles.cpp.i
 
 Lab_10/detect_circles.s: Lab_10/detect_circles.cpp.s
@@ -200,8 +279,35 @@ Lab_10/detect_circles.s: Lab_10/detect_circles.cpp.s
 
 # target to generate assembly for a file
 Lab_10/detect_circles.cpp.s:
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/Lab_10/detect_circles.cpp.s
+	$(MAKE) -f CMakeFiles/circle_detection.dir/build.make CMakeFiles/circle_detection.dir/Lab_10/detect_circles.cpp.s
 .PHONY : Lab_10/detect_circles.cpp.s
+
+Lab_10/detect_face.o: Lab_10/detect_face.cpp.o
+
+.PHONY : Lab_10/detect_face.o
+
+# target to build an object file
+Lab_10/detect_face.cpp.o:
+	$(MAKE) -f CMakeFiles/face_detection.dir/build.make CMakeFiles/face_detection.dir/Lab_10/detect_face.cpp.o
+.PHONY : Lab_10/detect_face.cpp.o
+
+Lab_10/detect_face.i: Lab_10/detect_face.cpp.i
+
+.PHONY : Lab_10/detect_face.i
+
+# target to preprocess a source file
+Lab_10/detect_face.cpp.i:
+	$(MAKE) -f CMakeFiles/face_detection.dir/build.make CMakeFiles/face_detection.dir/Lab_10/detect_face.cpp.i
+.PHONY : Lab_10/detect_face.cpp.i
+
+Lab_10/detect_face.s: Lab_10/detect_face.cpp.s
+
+.PHONY : Lab_10/detect_face.s
+
+# target to generate assembly for a file
+Lab_10/detect_face.cpp.s:
+	$(MAKE) -f CMakeFiles/face_detection.dir/build.make CMakeFiles/face_detection.dir/Lab_10/detect_face.cpp.s
+.PHONY : Lab_10/detect_face.cpp.s
 
 Lab_10/main.o: Lab_10/main.cpp.o
 
@@ -209,7 +315,7 @@ Lab_10/main.o: Lab_10/main.cpp.o
 
 # target to build an object file
 Lab_10/main.cpp.o:
-	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/Lab_10/main.cpp.o
+	$(MAKE) -f CMakeFiles/Lab10_demo.dir/build.make CMakeFiles/Lab10_demo.dir/Lab_10/main.cpp.o
 .PHONY : Lab_10/main.cpp.o
 
 Lab_10/main.i: Lab_10/main.cpp.i
@@ -218,7 +324,7 @@ Lab_10/main.i: Lab_10/main.cpp.i
 
 # target to preprocess a source file
 Lab_10/main.cpp.i:
-	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/Lab_10/main.cpp.i
+	$(MAKE) -f CMakeFiles/Lab10_demo.dir/build.make CMakeFiles/Lab10_demo.dir/Lab_10/main.cpp.i
 .PHONY : Lab_10/main.cpp.i
 
 Lab_10/main.s: Lab_10/main.cpp.s
@@ -227,8 +333,62 @@ Lab_10/main.s: Lab_10/main.cpp.s
 
 # target to generate assembly for a file
 Lab_10/main.cpp.s:
-	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/Lab_10/main.cpp.s
+	$(MAKE) -f CMakeFiles/Lab10_demo.dir/build.make CMakeFiles/Lab10_demo.dir/Lab_10/main.cpp.s
 .PHONY : Lab_10/main.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+trajectory_test.o: trajectory_test.cpp.o
+
+.PHONY : trajectory_test.o
+
+# target to build an object file
+trajectory_test.cpp.o:
+	$(MAKE) -f CMakeFiles/trajectory_test.dir/build.make CMakeFiles/trajectory_test.dir/trajectory_test.cpp.o
+.PHONY : trajectory_test.cpp.o
+
+trajectory_test.i: trajectory_test.cpp.i
+
+.PHONY : trajectory_test.i
+
+# target to preprocess a source file
+trajectory_test.cpp.i:
+	$(MAKE) -f CMakeFiles/trajectory_test.dir/build.make CMakeFiles/trajectory_test.dir/trajectory_test.cpp.i
+.PHONY : trajectory_test.cpp.i
+
+trajectory_test.s: trajectory_test.cpp.s
+
+.PHONY : trajectory_test.s
+
+# target to generate assembly for a file
+trajectory_test.cpp.s:
+	$(MAKE) -f CMakeFiles/trajectory_test.dir/build.make CMakeFiles/trajectory_test.dir/trajectory_test.cpp.s
+.PHONY : trajectory_test.cpp.s
 
 # Help Target
 help:
@@ -237,19 +397,35 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... trajectory_test"
+	@echo "... face_detection"
+	@echo "... circle_detection"
 	@echo "... edit_cache"
-	@echo "... test3"
-	@echo "... test5"
-	@echo "... test4"
+	@echo "... Line_detection"
+	@echo "... Lab10_demo"
+	@echo "... test"
+	@echo "... camera"
+	@echo "... Lab_10/Cam.o"
+	@echo "... Lab_10/Cam.i"
+	@echo "... Lab_10/Cam.s"
 	@echo "... Lab_10/Line_detection.o"
 	@echo "... Lab_10/Line_detection.i"
 	@echo "... Lab_10/Line_detection.s"
 	@echo "... Lab_10/detect_circles.o"
 	@echo "... Lab_10/detect_circles.i"
 	@echo "... Lab_10/detect_circles.s"
+	@echo "... Lab_10/detect_face.o"
+	@echo "... Lab_10/detect_face.i"
+	@echo "... Lab_10/detect_face.s"
 	@echo "... Lab_10/main.o"
 	@echo "... Lab_10/main.i"
 	@echo "... Lab_10/main.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... trajectory_test.o"
+	@echo "... trajectory_test.i"
+	@echo "... trajectory_test.s"
 .PHONY : help
 
 

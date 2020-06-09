@@ -1,5 +1,9 @@
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/test3.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/test5.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/test4.dir
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/trajectory_test.dir
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/face_detection.dir
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/circle_detection.dir
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/Line_detection.dir
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/Lab10_demo.dir
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/test.dir
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/camera.dir

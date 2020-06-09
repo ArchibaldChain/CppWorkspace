@@ -8,14 +8,15 @@ using namespace std;
 using namespace cv;
 int main(){
     cv::VideoCapture cap;
-    cap.open(1);
-    if (!cap.open(0)) {
-        cout << "Failed to open camera!!" << endl;
-//        return -1;
-    }
+    cap.open(0);
+//    cout << cap.get();
     Mat img, imgGray;
     int fps = 60;
     while (true) {
+        if (!cap.isOpened()) { //check if video device has been initialised
+            cout << "cannot open camera" << endl;
+            return -1;
+        }
         cap >> img;
 //        cvtColor(img, imgGray, COLOR_BGR2GRAY);
         equalizeHist(imgGray, imgGray);//直方图均匀化

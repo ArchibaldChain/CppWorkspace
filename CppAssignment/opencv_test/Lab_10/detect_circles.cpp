@@ -17,12 +17,15 @@ int main(int argc, char** argv)
     //detect circles
     // Read the image as gray-scale
     //Mat srcImage = imread("../circle-detection.jpg", IMREAD_COLOR);
-    Mat srcImage = imread(R"(I:\Programming\CppWorkspace\CppAssignment\opencv_test\Lab_10\circle-detection-hough-transform-opencv.jpg)", IMREAD_COLOR);
+    string filename = R"(I:\Programming\Cpp_workspace\CppLearningCode\CppAssignment\opencv_test\Lab_10\circle-detection.jpg)";
+    Mat srcImage = imread(filename, 1/*, IMREAD_COLOR*/);
     if(srcImage.empty())
     {
-        cout<<"can not load image \n";
+        cout<<"can not load image\n";
+        cout << "*****************\n";
         return -1;
     }
+    cout << "succeed\n";
 
     Mat midImage, dstImage;
     dstImage = srcImage.clone();

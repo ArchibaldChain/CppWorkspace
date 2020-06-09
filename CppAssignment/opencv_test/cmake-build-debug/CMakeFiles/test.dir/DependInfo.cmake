@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/main.cpp" "/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/test.dir/main.cpp.o"
+  "/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/main.cpp" "/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles/test.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/opencv2"
   "../include"
+  "../"
   "/usr/include/opencv"
   )
 

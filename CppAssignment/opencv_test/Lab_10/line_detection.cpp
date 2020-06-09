@@ -11,7 +11,8 @@ using namespace std;
 int main()
 {
     // Read the image as gray-scale
-    Mat srcImage = imread("I:\\Programming\\CppWorkspace\\CppAssignment\\opencv_test\\Lab_10\\line-detection.jpg", IMREAD_COLOR);
+    String filename = R"(I:\Programming\Cpp_workspace\CppLearningCode\CppAssignment\opencv_test\Lab_10\line-detection.jpg)";
+    Mat srcImage = imread(filename,IMREAD_COLOR);
     if(srcImage.empty())
     {
         cout<<"can not load image \n";

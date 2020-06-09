@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test
+# Install script for directory: /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

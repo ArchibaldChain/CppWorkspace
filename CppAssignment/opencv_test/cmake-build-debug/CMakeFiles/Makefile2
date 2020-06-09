@@ -44,18 +44,22 @@ RM = "/cygdrive/c/Users/Archibald Chain/AppData/Local/JetBrains/CLion2020.1/cygw
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test
+CMAKE_SOURCE_DIR = /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/test3.dir/all
-all: CMakeFiles/test5.dir/all
-all: CMakeFiles/test4.dir/all
+all: CMakeFiles/trajectory_test.dir/all
+all: CMakeFiles/face_detection.dir/all
+all: CMakeFiles/circle_detection.dir/all
+all: CMakeFiles/Line_detection.dir/all
+all: CMakeFiles/Lab10_demo.dir/all
+all: CMakeFiles/test.dir/all
+all: CMakeFiles/camera.dir/all
 
 .PHONY : all
 
@@ -65,92 +69,204 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/test3.dir/clean
-clean: CMakeFiles/test5.dir/clean
-clean: CMakeFiles/test4.dir/clean
+clean: CMakeFiles/trajectory_test.dir/clean
+clean: CMakeFiles/face_detection.dir/clean
+clean: CMakeFiles/circle_detection.dir/clean
+clean: CMakeFiles/Line_detection.dir/clean
+clean: CMakeFiles/Lab10_demo.dir/clean
+clean: CMakeFiles/test.dir/clean
+clean: CMakeFiles/camera.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test3.dir
+# Target rules for target CMakeFiles/trajectory_test.dir
 
 # All Build rule for target.
-CMakeFiles/test3.dir/all:
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/depend
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target test3"
-.PHONY : CMakeFiles/test3.dir/all
+CMakeFiles/trajectory_test.dir/all:
+	$(MAKE) -f CMakeFiles/trajectory_test.dir/build.make CMakeFiles/trajectory_test.dir/depend
+	$(MAKE) -f CMakeFiles/trajectory_test.dir/build.make CMakeFiles/trajectory_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target trajectory_test"
+.PHONY : CMakeFiles/trajectory_test.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/test3.dir/rule
+CMakeFiles/trajectory_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trajectory_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/trajectory_test.dir/rule
 
 # Convenience name for target.
-test3: CMakeFiles/test3.dir/rule
+trajectory_test: CMakeFiles/trajectory_test.dir/rule
 
-.PHONY : test3
+.PHONY : trajectory_test
 
 # clean rule for target.
-CMakeFiles/test3.dir/clean:
-	$(MAKE) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/clean
-.PHONY : CMakeFiles/test3.dir/clean
+CMakeFiles/trajectory_test.dir/clean:
+	$(MAKE) -f CMakeFiles/trajectory_test.dir/build.make CMakeFiles/trajectory_test.dir/clean
+.PHONY : CMakeFiles/trajectory_test.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test5.dir
+# Target rules for target CMakeFiles/face_detection.dir
 
 # All Build rule for target.
-CMakeFiles/test5.dir/all:
-	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/depend
-	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target test5"
-.PHONY : CMakeFiles/test5.dir/all
+CMakeFiles/face_detection.dir/all:
+	$(MAKE) -f CMakeFiles/face_detection.dir/build.make CMakeFiles/face_detection.dir/depend
+	$(MAKE) -f CMakeFiles/face_detection.dir/build.make CMakeFiles/face_detection.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target face_detection"
+.PHONY : CMakeFiles/face_detection.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/test5.dir/rule
+CMakeFiles/face_detection.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/face_detection.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/face_detection.dir/rule
 
 # Convenience name for target.
-test5: CMakeFiles/test5.dir/rule
+face_detection: CMakeFiles/face_detection.dir/rule
 
-.PHONY : test5
+.PHONY : face_detection
 
 # clean rule for target.
-CMakeFiles/test5.dir/clean:
-	$(MAKE) -f CMakeFiles/test5.dir/build.make CMakeFiles/test5.dir/clean
-.PHONY : CMakeFiles/test5.dir/clean
+CMakeFiles/face_detection.dir/clean:
+	$(MAKE) -f CMakeFiles/face_detection.dir/build.make CMakeFiles/face_detection.dir/clean
+.PHONY : CMakeFiles/face_detection.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test4.dir
+# Target rules for target CMakeFiles/circle_detection.dir
 
 # All Build rule for target.
-CMakeFiles/test4.dir/all:
-	$(MAKE) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/depend
-	$(MAKE) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target test4"
-.PHONY : CMakeFiles/test4.dir/all
+CMakeFiles/circle_detection.dir/all:
+	$(MAKE) -f CMakeFiles/circle_detection.dir/build.make CMakeFiles/circle_detection.dir/depend
+	$(MAKE) -f CMakeFiles/circle_detection.dir/build.make CMakeFiles/circle_detection.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target circle_detection"
+.PHONY : CMakeFiles/circle_detection.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/test4.dir/rule
+CMakeFiles/circle_detection.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/circle_detection.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/circle_detection.dir/rule
 
 # Convenience name for target.
-test4: CMakeFiles/test4.dir/rule
+circle_detection: CMakeFiles/circle_detection.dir/rule
 
-.PHONY : test4
+.PHONY : circle_detection
 
 # clean rule for target.
-CMakeFiles/test4.dir/clean:
-	$(MAKE) -f CMakeFiles/test4.dir/build.make CMakeFiles/test4.dir/clean
-.PHONY : CMakeFiles/test4.dir/clean
+CMakeFiles/circle_detection.dir/clean:
+	$(MAKE) -f CMakeFiles/circle_detection.dir/build.make CMakeFiles/circle_detection.dir/clean
+.PHONY : CMakeFiles/circle_detection.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Line_detection.dir
+
+# All Build rule for target.
+CMakeFiles/Line_detection.dir/all:
+	$(MAKE) -f CMakeFiles/Line_detection.dir/build.make CMakeFiles/Line_detection.dir/depend
+	$(MAKE) -f CMakeFiles/Line_detection.dir/build.make CMakeFiles/Line_detection.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Line_detection"
+.PHONY : CMakeFiles/Line_detection.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Line_detection.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Line_detection.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Line_detection.dir/rule
+
+# Convenience name for target.
+Line_detection: CMakeFiles/Line_detection.dir/rule
+
+.PHONY : Line_detection
+
+# clean rule for target.
+CMakeFiles/Line_detection.dir/clean:
+	$(MAKE) -f CMakeFiles/Line_detection.dir/build.make CMakeFiles/Line_detection.dir/clean
+.PHONY : CMakeFiles/Line_detection.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Lab10_demo.dir
+
+# All Build rule for target.
+CMakeFiles/Lab10_demo.dir/all:
+	$(MAKE) -f CMakeFiles/Lab10_demo.dir/build.make CMakeFiles/Lab10_demo.dir/depend
+	$(MAKE) -f CMakeFiles/Lab10_demo.dir/build.make CMakeFiles/Lab10_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Lab10_demo"
+.PHONY : CMakeFiles/Lab10_demo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Lab10_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lab10_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Lab10_demo.dir/rule
+
+# Convenience name for target.
+Lab10_demo: CMakeFiles/Lab10_demo.dir/rule
+
+.PHONY : Lab10_demo
+
+# clean rule for target.
+CMakeFiles/Lab10_demo.dir/clean:
+	$(MAKE) -f CMakeFiles/Lab10_demo.dir/build.make CMakeFiles/Lab10_demo.dir/clean
+.PHONY : CMakeFiles/Lab10_demo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/camera.dir
+
+# All Build rule for target.
+CMakeFiles/camera.dir/all:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/depend
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target camera"
+.PHONY : CMakeFiles/camera.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/camera.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/camera.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/camera.dir/rule
+
+# Convenience name for target.
+camera: CMakeFiles/camera.dir/rule
+
+.PHONY : camera
+
+# clean rule for target.
+CMakeFiles/camera.dir/clean:
+	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/clean
+.PHONY : CMakeFiles/camera.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

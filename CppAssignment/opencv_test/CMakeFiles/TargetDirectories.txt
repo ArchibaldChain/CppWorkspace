@@ -1,7 +1,0 @@
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/CMakeFiles/rebuild_cache.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/CMakeFiles/edit_cache.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/CMakeFiles/test2.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/CMakeFiles/camera.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/CMakeFiles/test3.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/CMakeFiles/test4.dir
-/cygdrive/i/Programming/CppWorkspace/CppAssignment/opencv_test/CMakeFiles/test5.dir
