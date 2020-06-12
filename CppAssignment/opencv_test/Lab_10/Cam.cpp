@@ -7,8 +7,8 @@
 using namespace std;
 using namespace cv;
 int main(){
-    cv::VideoCapture cap;
-    cap.open(0);
+    cv::VideoCapture cap(cv::CAP_DSHOW);
+    cap.open(1);
 //    cout << cap.get();
     Mat img, imgGray;
     int fps = 60;
