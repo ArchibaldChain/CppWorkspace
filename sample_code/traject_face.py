@@ -9,7 +9,7 @@ import argparse
 ap = argparse.ArgumentParser()
 args = vars(ap.parse_args())
 face_cascade = cv2.CascadeClassifier(
-    "F:\\Program Files\\opencv\\opencv\\sources\\data\\haarcascades\\haarcascade_frontalface_default.xml")
+     "/usr/share/opencv/haarcascades/haarcascade_frontalface_default.xml")
 # eye_cascade=cv2.CascadeClassifier("/usr/share/opencv/haarcascades/haarcascade_eye.xml")
 cap = cv2.VideoCapture(0)
 pts = deque(maxlen=124)

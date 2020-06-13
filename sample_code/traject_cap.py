@@ -14,7 +14,7 @@ redUpper = np.array([179, 255, 255])
 mybuffer = 64
 pts = deque(maxlen=mybuffer)
 # 打开摄像头
-camera = cv2.VideoCapture(1)
+camera = cv2.VideoCapture(0)
 # 等待两秒
 time.sleep(2)
 # 遍历每一帧，检测红色瓶盖
@@ -35,8 +35,9 @@ while True:
     # 膨胀操作，其实先腐蚀再膨胀的效果是开运算，去除噪点
     mask = cv2.dilate(mask, None, iterations=2)
     # 轮廓检测
-    cnts = cv2.findContours(mask.copy(), cv2.RETR_EXTERNAL,
-                            cv2.CHAIN_APPROX_SIMPLE)[-2]
+    cnts = cv2.findContours(mask.copy(), cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)[-2]
+    # cnts = cv2.findContours(mask.copy(), cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)[-2]
+
     # 初始化瓶盖圆形轮廓质心
     center = None
     # 如果存在轮廓
