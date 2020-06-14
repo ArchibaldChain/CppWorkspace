@@ -54,3 +54,7 @@ target_link_libraries(filewriter ${OpenCV_LIBS})
 
 add_executable(facecap sample_code/traject_face.cpp ${NAME_HEADERS} )
 target_link_libraries(facecap ${OpenCV_LIBS})
+
+add_executable(traj sample_code/traject_cap.cpp ${NAME_HEADERS} )
+target_link_libraries(traj ${OpenCV_LIBS})
+

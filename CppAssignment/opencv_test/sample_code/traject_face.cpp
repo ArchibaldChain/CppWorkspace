@@ -8,39 +8,6 @@
 using namespace cv;
 using namespace std;
 
-const int redLower[] = {170, 100, 100};
-const int redUpper[] = {179, 255, 255};
-
-vector<Point> points;
-//Point center;
-//绘制贝塞尔曲线
-//Point pointAdd(Point p, Point q)
-//{
-//    p.x += q.x;
-//    p.y += q.y;
-//    return p;
-//}
-//
-//Point pointTimes(float c, Point p)
-//{
-//    p.x *= c;
-//    p.y *= c;
-//    return p;
-//}
-//
-//Point Bernstein(float u, Point qi, Point mid, Point mo)
-//{
-//    Point a, b, c, r;
-//
-//    a = pointTimes(pow(u, 2), mo);
-//    b = pointTimes(pow((1 - u), 2), qi);
-//    c = pointTimes(2 * u * (1 - u), mid);
-//
-//    r = pointAdd(pointAdd(a, b), c);
-//
-//    return r;
-//}
-
 int main(int argc, char **argv)
 {
     VideoCapture cap(1); //读取USB摄像头

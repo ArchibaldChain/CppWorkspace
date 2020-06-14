@@ -111,17 +111,69 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named facecap
+# Target rules for targets named test
 
 # Build rule for target.
-facecap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 facecap
-.PHONY : facecap
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-facecap/fast:
-	$(MAKE) -f CMakeFiles/facecap.dir/build.make CMakeFiles/facecap.dir/build
-.PHONY : facecap/fast
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named Lab10_demo
+
+# Build rule for target.
+Lab10_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab10_demo
+.PHONY : Lab10_demo
+
+# fast build rule for target.
+Lab10_demo/fast:
+	$(MAKE) -f CMakeFiles/Lab10_demo.dir/build.make CMakeFiles/Lab10_demo.dir/build
+.PHONY : Lab10_demo/fast
+
+#=============================================================================
+# Target rules for targets named Line_detection
+
+# Build rule for target.
+Line_detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Line_detection
+.PHONY : Line_detection
+
+# fast build rule for target.
+Line_detection/fast:
+	$(MAKE) -f CMakeFiles/Line_detection.dir/build.make CMakeFiles/Line_detection.dir/build
+.PHONY : Line_detection/fast
+
+#=============================================================================
+# Target rules for targets named circle_detection
+
+# Build rule for target.
+circle_detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 circle_detection
+.PHONY : circle_detection
+
+# fast build rule for target.
+circle_detection/fast:
+	$(MAKE) -f CMakeFiles/circle_detection.dir/build.make CMakeFiles/circle_detection.dir/build
+.PHONY : circle_detection/fast
+
+#=============================================================================
+# Target rules for targets named filewriter
+
+# Build rule for target.
+filewriter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filewriter
+.PHONY : filewriter
+
+# fast build rule for target.
+filewriter/fast:
+	$(MAKE) -f CMakeFiles/filewriter.dir/build.make CMakeFiles/filewriter.dir/build
+.PHONY : filewriter/fast
 
 #=============================================================================
 # Target rules for targets named trajectory_test
@@ -150,69 +202,17 @@ face_detection/fast:
 .PHONY : face_detection/fast
 
 #=============================================================================
-# Target rules for targets named filewriter
+# Target rules for targets named facecap
 
 # Build rule for target.
-filewriter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 filewriter
-.PHONY : filewriter
+facecap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 facecap
+.PHONY : facecap
 
 # fast build rule for target.
-filewriter/fast:
-	$(MAKE) -f CMakeFiles/filewriter.dir/build.make CMakeFiles/filewriter.dir/build
-.PHONY : filewriter/fast
-
-#=============================================================================
-# Target rules for targets named circle_detection
-
-# Build rule for target.
-circle_detection: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 circle_detection
-.PHONY : circle_detection
-
-# fast build rule for target.
-circle_detection/fast:
-	$(MAKE) -f CMakeFiles/circle_detection.dir/build.make CMakeFiles/circle_detection.dir/build
-.PHONY : circle_detection/fast
-
-#=============================================================================
-# Target rules for targets named Line_detection
-
-# Build rule for target.
-Line_detection: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Line_detection
-.PHONY : Line_detection
-
-# fast build rule for target.
-Line_detection/fast:
-	$(MAKE) -f CMakeFiles/Line_detection.dir/build.make CMakeFiles/Line_detection.dir/build
-.PHONY : Line_detection/fast
-
-#=============================================================================
-# Target rules for targets named Lab10_demo
-
-# Build rule for target.
-Lab10_demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Lab10_demo
-.PHONY : Lab10_demo
-
-# fast build rule for target.
-Lab10_demo/fast:
-	$(MAKE) -f CMakeFiles/Lab10_demo.dir/build.make CMakeFiles/Lab10_demo.dir/build
-.PHONY : Lab10_demo/fast
-
-#=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+facecap/fast:
+	$(MAKE) -f CMakeFiles/facecap.dir/build.make CMakeFiles/facecap.dir/build
+.PHONY : facecap/fast
 
 #=============================================================================
 # Target rules for targets named camera
@@ -226,6 +226,19 @@ camera: cmake_check_build_system
 camera/fast:
 	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/build
 .PHONY : camera/fast
+
+#=============================================================================
+# Target rules for targets named traj
+
+# Build rule for target.
+traj: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 traj
+.PHONY : traj
+
+# fast build rule for target.
+traj/fast:
+	$(MAKE) -f CMakeFiles/traj.dir/build.make CMakeFiles/traj.dir/build
+.PHONY : traj/fast
 
 Lab_10/Cam.o: Lab_10/Cam.cpp.o
 
@@ -416,6 +429,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sample_code/traject_cap.o: sample_code/traject_cap.cpp.o
+
+.PHONY : sample_code/traject_cap.o
+
+# target to build an object file
+sample_code/traject_cap.cpp.o:
+	$(MAKE) -f CMakeFiles/traj.dir/build.make CMakeFiles/traj.dir/sample_code/traject_cap.cpp.o
+.PHONY : sample_code/traject_cap.cpp.o
+
+sample_code/traject_cap.i: sample_code/traject_cap.cpp.i
+
+.PHONY : sample_code/traject_cap.i
+
+# target to preprocess a source file
+sample_code/traject_cap.cpp.i:
+	$(MAKE) -f CMakeFiles/traj.dir/build.make CMakeFiles/traj.dir/sample_code/traject_cap.cpp.i
+.PHONY : sample_code/traject_cap.cpp.i
+
+sample_code/traject_cap.s: sample_code/traject_cap.cpp.s
+
+.PHONY : sample_code/traject_cap.s
+
+# target to generate assembly for a file
+sample_code/traject_cap.cpp.s:
+	$(MAKE) -f CMakeFiles/traj.dir/build.make CMakeFiles/traj.dir/sample_code/traject_cap.cpp.s
+.PHONY : sample_code/traject_cap.cpp.s
+
 sample_code/traject_face.o: sample_code/traject_face.cpp.o
 
 .PHONY : sample_code/traject_face.o
@@ -477,16 +517,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... facecap"
+	@echo "... test"
+	@echo "... Lab10_demo"
+	@echo "... Line_detection"
+	@echo "... edit_cache"
+	@echo "... circle_detection"
+	@echo "... filewriter"
 	@echo "... trajectory_test"
 	@echo "... face_detection"
-	@echo "... filewriter"
-	@echo "... circle_detection"
-	@echo "... edit_cache"
-	@echo "... Line_detection"
-	@echo "... Lab10_demo"
-	@echo "... test"
+	@echo "... facecap"
 	@echo "... camera"
+	@echo "... traj"
 	@echo "... Lab_10/Cam.o"
 	@echo "... Lab_10/Cam.i"
 	@echo "... Lab_10/Cam.s"
@@ -508,6 +549,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sample_code/traject_cap.o"
+	@echo "... sample_code/traject_cap.i"
+	@echo "... sample_code/traject_cap.s"
 	@echo "... sample_code/traject_face.o"
 	@echo "... sample_code/traject_face.i"
 	@echo "... sample_code/traject_face.s"

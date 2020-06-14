@@ -57,13 +57,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/facecap.dir/DependInfo.cmake"
+  "CMakeFiles/test.dir/DependInfo.cmake"
+  "CMakeFiles/Lab10_demo.dir/DependInfo.cmake"
+  "CMakeFiles/Line_detection.dir/DependInfo.cmake"
+  "CMakeFiles/circle_detection.dir/DependInfo.cmake"
+  "CMakeFiles/filewriter.dir/DependInfo.cmake"
   "CMakeFiles/trajectory_test.dir/DependInfo.cmake"
   "CMakeFiles/face_detection.dir/DependInfo.cmake"
-  "CMakeFiles/filewriter.dir/DependInfo.cmake"
-  "CMakeFiles/circle_detection.dir/DependInfo.cmake"
-  "CMakeFiles/Line_detection.dir/DependInfo.cmake"
-  "CMakeFiles/Lab10_demo.dir/DependInfo.cmake"
-  "CMakeFiles/test.dir/DependInfo.cmake"
+  "CMakeFiles/facecap.dir/DependInfo.cmake"
   "CMakeFiles/camera.dir/DependInfo.cmake"
+  "CMakeFiles/traj.dir/DependInfo.cmake"
   )
