@@ -1,5 +1,6 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
+#include <bits/valarray_before.h>
 // #include <opencv2/imgproc/imgproc.hpp>
 using namespace cv;
 using namespace std;
@@ -9,7 +10,10 @@ Point image_center(Mat &src, vector<vector<Point>> &filterContours, Mat &output_
 int main()
 {
     VideoCapture cap;
-    cap.open(1);
+    cap.open(R"(I:\Programming\Cpp_workspace\CppLearningCode\CppAssignment\opencv_test\head_square.mp4)");
+    fps = cap.get(CV_CAP_PROP_FPS);
+    size = (int(cap.get(CV_CAP_PROP_FRAME_WIDTH)),int(cap.get(CV_CAP_PROP_FRAME_HEIGHT)))
+
     if (!cap.isOpened())
     {
         cout << "failed to open the camera!" << endl;

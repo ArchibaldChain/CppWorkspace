@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     cout << "success";
     cout << "OpenCV Version: " << CV_VERSION << endl;
-    Mat img = imread("I:\\Programming\\Cpp_workspace\\CppLearningCode\\CppAssignment\\opencv_test\\girl.jpg");
+    Mat img = imread(R"(I:\Programming\Cpp_workspace\CppLearningCode\CppAssignment\opencv_test\girl.jpg)");
     if(img.empty())
     {
         cout<<"can not load image \n";

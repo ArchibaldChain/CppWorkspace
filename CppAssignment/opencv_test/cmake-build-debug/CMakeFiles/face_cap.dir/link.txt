@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/face_cap.dir/Lab_10/file_writer.cpp.o  -o bin/face_cap.exe -Wl,--out-implib,bin/libface_cap.dll.a -Wl,--major-image-version,0,--minor-image-version,0   -L/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/cmake-build-debug/bin 

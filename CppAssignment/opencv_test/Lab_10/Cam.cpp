@@ -7,8 +7,8 @@
 using namespace std;
 using namespace cv;
 int main(){
-    cv::VideoCapture cap(cv::CAP_DSHOW);
-    cap.open(1);
+    string file = R"(I:\Programming\Cpp_workspace\CppLearningCode\CppAssignment\opencv_test\head_square.mp4)";
+    cv::VideoCapture cap(file);
 //    cout << cap.get();
     Mat img, imgGray;
     int fps = 60;
@@ -19,9 +19,11 @@ int main(){
         }
         cap >> img;
 //        cvtColor(img, imgGray, COLOR_BGR2GRAY);
+
         equalizeHist(imgGray, imgGray);//直方图均匀化
         waitKey(1000/fps);
         imshow("src", img);
     }
+
 }
 

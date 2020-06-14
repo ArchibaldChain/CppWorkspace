@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named facecap
+
+# Build rule for target.
+facecap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 facecap
+.PHONY : facecap
+
+# fast build rule for target.
+facecap/fast:
+	$(MAKE) -f CMakeFiles/facecap.dir/build.make CMakeFiles/facecap.dir/build
+.PHONY : facecap/fast
+
+#=============================================================================
 # Target rules for targets named trajectory_test
 
 # Build rule for target.
@@ -135,6 +148,19 @@ face_detection: cmake_check_build_system
 face_detection/fast:
 	$(MAKE) -f CMakeFiles/face_detection.dir/build.make CMakeFiles/face_detection.dir/build
 .PHONY : face_detection/fast
+
+#=============================================================================
+# Target rules for targets named filewriter
+
+# Build rule for target.
+filewriter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 filewriter
+.PHONY : filewriter
+
+# fast build rule for target.
+filewriter/fast:
+	$(MAKE) -f CMakeFiles/filewriter.dir/build.make CMakeFiles/filewriter.dir/build
+.PHONY : filewriter/fast
 
 #=============================================================================
 # Target rules for targets named circle_detection
@@ -309,6 +335,33 @@ Lab_10/detect_face.cpp.s:
 	$(MAKE) -f CMakeFiles/face_detection.dir/build.make CMakeFiles/face_detection.dir/Lab_10/detect_face.cpp.s
 .PHONY : Lab_10/detect_face.cpp.s
 
+Lab_10/file_writer.o: Lab_10/file_writer.cpp.o
+
+.PHONY : Lab_10/file_writer.o
+
+# target to build an object file
+Lab_10/file_writer.cpp.o:
+	$(MAKE) -f CMakeFiles/filewriter.dir/build.make CMakeFiles/filewriter.dir/Lab_10/file_writer.cpp.o
+.PHONY : Lab_10/file_writer.cpp.o
+
+Lab_10/file_writer.i: Lab_10/file_writer.cpp.i
+
+.PHONY : Lab_10/file_writer.i
+
+# target to preprocess a source file
+Lab_10/file_writer.cpp.i:
+	$(MAKE) -f CMakeFiles/filewriter.dir/build.make CMakeFiles/filewriter.dir/Lab_10/file_writer.cpp.i
+.PHONY : Lab_10/file_writer.cpp.i
+
+Lab_10/file_writer.s: Lab_10/file_writer.cpp.s
+
+.PHONY : Lab_10/file_writer.s
+
+# target to generate assembly for a file
+Lab_10/file_writer.cpp.s:
+	$(MAKE) -f CMakeFiles/filewriter.dir/build.make CMakeFiles/filewriter.dir/Lab_10/file_writer.cpp.s
+.PHONY : Lab_10/file_writer.cpp.s
+
 Lab_10/main.o: Lab_10/main.cpp.o
 
 .PHONY : Lab_10/main.o
@@ -363,6 +416,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sample_code/traject_face.o: sample_code/traject_face.cpp.o
+
+.PHONY : sample_code/traject_face.o
+
+# target to build an object file
+sample_code/traject_face.cpp.o:
+	$(MAKE) -f CMakeFiles/facecap.dir/build.make CMakeFiles/facecap.dir/sample_code/traject_face.cpp.o
+.PHONY : sample_code/traject_face.cpp.o
+
+sample_code/traject_face.i: sample_code/traject_face.cpp.i
+
+.PHONY : sample_code/traject_face.i
+
+# target to preprocess a source file
+sample_code/traject_face.cpp.i:
+	$(MAKE) -f CMakeFiles/facecap.dir/build.make CMakeFiles/facecap.dir/sample_code/traject_face.cpp.i
+.PHONY : sample_code/traject_face.cpp.i
+
+sample_code/traject_face.s: sample_code/traject_face.cpp.s
+
+.PHONY : sample_code/traject_face.s
+
+# target to generate assembly for a file
+sample_code/traject_face.cpp.s:
+	$(MAKE) -f CMakeFiles/facecap.dir/build.make CMakeFiles/facecap.dir/sample_code/traject_face.cpp.s
+.PHONY : sample_code/traject_face.cpp.s
+
 trajectory_test.o: trajectory_test.cpp.o
 
 .PHONY : trajectory_test.o
@@ -397,8 +477,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... facecap"
 	@echo "... trajectory_test"
 	@echo "... face_detection"
+	@echo "... filewriter"
 	@echo "... circle_detection"
 	@echo "... edit_cache"
 	@echo "... Line_detection"
@@ -417,12 +499,18 @@ help:
 	@echo "... Lab_10/detect_face.o"
 	@echo "... Lab_10/detect_face.i"
 	@echo "... Lab_10/detect_face.s"
+	@echo "... Lab_10/file_writer.o"
+	@echo "... Lab_10/file_writer.i"
+	@echo "... Lab_10/file_writer.s"
 	@echo "... Lab_10/main.o"
 	@echo "... Lab_10/main.i"
 	@echo "... Lab_10/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sample_code/traject_face.o"
+	@echo "... sample_code/traject_face.i"
+	@echo "... sample_code/traject_face.s"
 	@echo "... trajectory_test.o"
 	@echo "... trajectory_test.i"
 	@echo "... trajectory_test.s"

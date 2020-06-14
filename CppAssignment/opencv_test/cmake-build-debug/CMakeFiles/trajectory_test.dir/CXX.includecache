@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/i/Programming/Cpp_workspace/CppLearningCode/CppAssignment/opencv_test/trajectory_test.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+

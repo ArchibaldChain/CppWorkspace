@@ -49,3 +49,8 @@ set(tra trajectory_test)
 add_executable(${tra} trajectory_test.cpp ${NAME_HEADERS} )
 target_link_libraries(${tra} ${OpenCV_LIBS})
 
+add_executable(filewriter Lab_10/file_writer.cpp ${NAME_HEADERS} )
+target_link_libraries(filewriter ${OpenCV_LIBS})
+
+add_executable(facecap sample_code/traject_face.cpp ${NAME_HEADERS} )
+target_link_libraries(facecap ${OpenCV_LIBS})
