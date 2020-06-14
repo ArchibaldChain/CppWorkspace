@@ -13,6 +13,5 @@
      "latex-workshop.view.pdf.external.viewer.command": "C:\\Appliction\\极速PDF阅读器\\JisuPdf.exe ",
      "latex-workshop.view.pdf.external.viewer.args": [
           "%PDF%"
-     ],
-     "python.pythonPath": "/usr/bin/python2.7"
+     ]
 }
